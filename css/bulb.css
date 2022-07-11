@@ -1,0 +1,24 @@
+.bulbon img{
+    height: 500px;
+    width: 500x;
+
+};
+.bulboff img{ 
+    height:2500px;
+    width: 250px;
+}
+
+button{
+    padding: 15px;
+    width: 90px;
+    font-size:15px;
+    font-weight: 600;
+    margin: 20px;
+    color: black;
+    border-radius: 5px;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}

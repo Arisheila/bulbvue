@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb switch</title>
+    <link rel ="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bulb.css">
+</head>
+<body>
+  <div id="app">
+    <button @click="Controlbulb">{{buttonText}}</button>
+
+    <div v-if = 'bulbstate' class="bulboff">
+        <img src="/img/bulb-off.png" >
+    </div>
+    <div v-else class="bulbon">
+        <img src="/img/bulbon.gif" >
+    </div>
+
+
+    <span id="footer-content">&copy; 2022 Copyright: Arinaitwe Sheila</span>
+
+   
+    
+
+<script src = "./scripts/vue.js"></script>
+<script src ="./scripts/script.js"></script>
+</body>
+</html>
